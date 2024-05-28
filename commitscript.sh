@@ -4,7 +4,7 @@
 git add .
 
 # Commit changes
-git commit -m "add: commit scripts"
+git commit -m "files decomposition"
 
 # Push to Gitea
 git push origin master
