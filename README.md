@@ -137,12 +137,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or suggestions regarding ASCII Art Output, feel free to reach out to the project maintainers:
 
 
-- **[X - Vincent](https://tweeter.com/vinomondi_1)**
-- **[X - Seth](https://tweeter.com/seth)**
+- **[X - @vinomondi_1](https://tweeter.com/vinomondi_1)**
+- **[X - @seth](https://tweeter.com/seth)**
 - **[Github - Vincent](https://github.com/Vincent-Omondi/)**
 - **[Github - Seth](https://github.com/aTHOOH)**
 
-<p align="right">(<a href="#math-skills">back to top</a>)</p>
+<p align="right">(<a href="#project-overview">back to top</a>)</p>
 
 
 ## Acknowledgments
