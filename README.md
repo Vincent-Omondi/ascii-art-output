@@ -205,8 +205,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or suggestions regarding ASCII Art Output, feel free to reach out to the project maintainers:
 
 
-- **[X - @vinomondi_1](https://tweeter.com/vinomondi_1)**
-- **[X - @oathooh](https://tweeter.com/oathooh)**
+- **[X - @vinomondi_1](https://x.com/vinomondi_1)**
+- **[X - @oathooh](https://x.com/oathooh)**
 - **[Github - Vincent](https://github.com/Vincent-Omondi/)**
 - **[Github - Seth](https://github.com/Athooh)**
 
