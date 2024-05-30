@@ -12,10 +12,10 @@ func LoadAsciiChars(filename string) (map[byte][]string, error) {
 	if err != nil {
 		// Check if the file doesn't exist
 		if os.IsNotExist(err) {
-			return nil, fmt.Errorf("error: file '%s' not found", filename)
-		// Return an error if there was a problem opening the file
+			return nil, fmt.Errorf("file '%s' not found", filename)
+			// Return an error if there was a problem opening the file
 		} else {
-			return nil, fmt.Errorf("error opening file: %w", err)
+			return nil, fmt.Errorf("opening file: %w", err)
 		}
 	}
 	defer file.Close()

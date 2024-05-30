@@ -11,7 +11,7 @@ import (
 
 func main() {
 	// Check if the command-line arguments are valid; if not, print usage instructions
-	if len(os.Args) < 4 || !strings.HasPrefix(os.Args[1], "--output=") {
+	if len(os.Args) < 3 || !strings.HasPrefix(os.Args[1], "--output=") {
 		fmt.Println("Usage: go run . [OPTION] [STRING] [BANNER]")
 		fmt.Println("Example: go run . --output=<fileName.txt> something standard")
 		return

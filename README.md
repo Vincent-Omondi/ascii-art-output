@@ -108,6 +108,74 @@ go run . --output=<outputFileName.txt> <textToConvert> <style>
 
 Replace `<style>` with one of the following options: `standard`, `shadow`, or `thinkertoy`.
 
+## Expected Output
+
+Instance 1. Shadow 
+```
+student$ go run . --output test00.txt "First\nTest" shadow
+```
+
+```
+
+student$ cat -e test00.txt
+                                       $
+_|_|_|_| _|                     _|     $
+_|          _|  _|_|   _|_|_| _|_|_|_| $
+_|_|_|   _| _|_|     _|_|       _|     $
+_|       _| _|           _|_|   _|     $
+_|       _| _|       _|_|_|       _|_| $
+                                       $
+                                       $
+                                      $
+_|_|_|_|_|                     _|     $
+    _|       _|_|     _|_|_| _|_|_|_| $
+    _|     _|_|_|_| _|_|       _|     $
+    _|     _|           _|_|   _|     $
+    _|       _|_|_| _|_|_|       _|_| $
+                                      $
+                                      $
+student$
+```
+
+Instance 2. thinktertoy
+
+```
+student$ go run . --output=test05.txt "123 -> \"#$%@" thinkertoy
+```
+
+```
+student$ cat -e test05.txt
+                                    o o         | |               $
+  0    --  o-o            o         | |  | |   -O-O-      O   o   $
+ /|   o  o    |            \            -O-O- o | |   o  /   / \  $
+o |     /   oo              O            | |   -O-O-    /   o O-o $
+  |    /      |       o-o  /            -O-O-   | | o  /  o  \    $
+o-o-o o--o o-o            o              | |   -O-O-  O       o-  $
+                                                | |               $
+                                                                  $
+student$
+
+```
+
+Instance 3. standard
+
+```
+student$ go run . --output=test02.txt "123 -> #$%" standard
+```
+
+```
+student$ cat -e test02.txt
+                                   __             _  _      _     _   __ $
+ _   ____    _____                 \ \          _| || |_   | |   (_) / / $
+/ | |___ \  |___ /         ______   \ \        |_  __  _| / __)     / /  $
+| |   __) |   |_ \        |______|   > >        _| || |_  \__ \    / /   $
+| |  / __/   ___) |                 / /        |_  __  _| (   /   / / _  $
+|_| |_____| |____/                 /_/           |_||_|    |_|   /_/ (_) $
+                                                                         $
+                                                                         $
+student$
+
+```
 ## Roadmap
 
 The following features are planned for future releases:
@@ -138,9 +206,9 @@ If you have any questions or suggestions regarding ASCII Art Output, feel free t
 
 
 - **[X - @vinomondi_1](https://tweeter.com/vinomondi_1)**
-- **[X - @seth](https://tweeter.com/seth)**
+- **[X - @oathooh](https://tweeter.com/oathooh)**
 - **[Github - Vincent](https://github.com/Vincent-Omondi/)**
-- **[Github - Seth](https://github.com/aTHOOH)**
+- **[Github - Seth](https://github.com/Athooh)**
 
 <p align="right">(<a href="#project-overview">back to top</a>)</p>
 
