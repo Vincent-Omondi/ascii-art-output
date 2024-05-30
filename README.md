@@ -110,7 +110,7 @@ Replace `<style>` with one of the following options: `standard`, `shadow`, or `t
 
 ## Expected Output
 
-Instance 1. Shadow 
+Instance 1. shadow 
 ```
 student$ go run . --output test00.txt "First\nTest" shadow
 ```
